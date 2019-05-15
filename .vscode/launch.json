@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ChangeMaker",
+            "request": "launch",
+            "mainClass": "ChangeMaker",
+            "projectName": "CSC349-PRJ4_156c50ee"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Tester",
             "request": "launch",
             "mainClass": "Tester",

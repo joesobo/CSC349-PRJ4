@@ -1,3 +1,7 @@
+//Change Maker
+//By Joseph Soboleski (jsoboles@calpoly.edu) and Salman Wajahat (swajahat@calpoly.edu)
+//5/15/19
+
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Arrays;
