@@ -113,11 +113,16 @@ public class ChangeMaker {
         System.out.print("\n");
 
         //Optimal coin count: 6
-        int total = 0;
-        for(int i = 0; i < result.length; i++){
-            total += result[i];
-        }
+        int total = coinCount(result);
         System.out.println("Optimal coin count: " + total);
+    }
+
+    public static int coinCount(int[] results){
+        int total = 0;
+        for(int i = 0; i < results.length; i++){
+            total += results[i];
+        }
+        return total;
     }
 
     private static int[] convertInt(ArrayList<Integer> list){
